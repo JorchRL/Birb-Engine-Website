@@ -10,7 +10,11 @@ export function useStyles() {
     bodyText: tw`font-sans text-blue-500 font-light text-base`,
   };
 
-  const setStyles = () => {
+  const setStyles = (
+    currentStyles: typeof styles,
+    newStyles: Record<string, string>,
+  ) => {
+    return { ...currentStyles, newStyles };
   };
 
   return { styles, setStyles };
