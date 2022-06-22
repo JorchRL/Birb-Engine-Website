@@ -170,7 +170,13 @@ function GetStarted() {
       <Header spacer>How to get started</Header>
       <Paragraph>
         Make sure you have the <a class={styles.link}>Deno CLI</a>{" "}
-        installed. Version 1.22.3 or higher. Once you do, just clone the repo:
+        installed. Version 1.22.3 or higher. Once you do, just clone{" "}
+        <a
+          class={styles.link}
+          href="https://github.com/JorchRL/Birb-Engine-Desktop3D-with-Deno"
+        >
+          the repo
+        </a>:
       </Paragraph>
       <Code>
         git clone https://github.com/JorchRL/Birb-Engine-Desktop3D-with-Deno
