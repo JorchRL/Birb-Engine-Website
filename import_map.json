@@ -1,9 +1,11 @@
 {
   "imports": {
     "$fresh/": "https://raw.githubusercontent.com/lucacasonato/fresh/main/",
-    "$twind" : "https://esm.sh/twind@0.16.16",
+    "$twind": "https://esm.sh/twind@0.16.16",
     "$twind/": "https://esm.sh/twind@0.16.16/",
-    "$root/" : "./",
+    "$three": "https://esm.sh/three@0.141.0",
+    "$three-stdlib": "https://esm.sh/three-stdlib@2.12.1",
+    "$root/": "./",
     "./": "./"
   }
 }
