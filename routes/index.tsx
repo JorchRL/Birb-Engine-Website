@@ -32,7 +32,7 @@ const TITLE = "Birb Engine - 3D desktop apps with Deno";
 const DESCRIPTION =
   "Build 3D games and apps on the desktop with Deno, Three.js and the Webview library!";
 
-export default function Home(props: PageProps) {
+export default function Home(props: any) {
   const styles = {
     mainContainer: tw`flex flex-col w-full h-[100vh] overflow-hidden relative`,
     bgCover: tw`w-full h-full -z-[1] bg-black absolute
